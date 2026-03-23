@@ -24,7 +24,7 @@ os.environ["GROQ_API_KEY"] = GROQ_API_KEY
 
 embeddings = download_embeddings()
 
-index_name = "med-chatbot"
+index_name = "medical-chatbot"
 
 # Connect to existing Pinecone index (already populated via store_index.py)
 docsearch = PineconeVectorStore.from_existing_index(
