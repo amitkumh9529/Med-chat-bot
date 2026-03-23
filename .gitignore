@@ -9,6 +9,9 @@ __pycache__/
 # Conda environment
 med/
 
+# Data files (PDFs already indexed in Pinecone — not needed in repo)
+data/
+
 # Distribution / packaging
 .Python
 build/
