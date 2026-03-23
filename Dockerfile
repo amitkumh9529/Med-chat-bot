@@ -23,8 +23,8 @@ COPY . .
 # Install local package (setup.py)
 RUN pip install --no-cache-dir -e .
 
-# HuggingFace Spaces must expose port 7860
-EXPOSE 7860
-
-# Run with 1 worker (RAM constrained) on port 7860
-CMD ["gunicorn", "app:app", "--workers", "1", "--threads", "2", "--timeout", "180", "--bind", "0.0.0.0:7860"]
+# HuggingFace Spaces must expose port 8080
+EXPOSE 8080
+        
+# Run with 1 worker (RAM constrained) on port 8080
+CMD ["gunicorn", "app:app", "--workers", "1", "--threads", "2", "--timeout", "180", "--bind", "0.0.0.0:8080"]
