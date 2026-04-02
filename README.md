@@ -1,12 +1,4 @@
----
-title: Med Chatbot
-emoji: 🏥
-colorFrom: blue
-colorTo: green
-sdk: docker
-app_port: 8080
-pinned: false
----
+
 
 # 🏥 Medical Chatbot — RAG-Powered AI Assistant
 
