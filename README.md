@@ -130,9 +130,8 @@ Place your PDF files inside the `data/` folder:
 
 ```
 data/
-├── medical_book_1.pdf
-├── medical_book_2.pdf
-└── ...
+├── medical_book.pdf
+
 ```
 
 ### 6. Build the Pinecone vector index (one-time only)
